@@ -33,11 +33,9 @@ Le modèle est un **CNN séquentiel** comprenant :
 
 ## Résultats
 Le modèle atteint une **précision d’environ 80 %** sur l’ensemble de test.  
-L’évaluation est réalisée à l’aide d’un second notebook dédié à la vérification des performances globales.
 
 ## Organisation du dépôt
-- `creation_modele.ipynb` : entraînement et sauvegarde du modèle  
-- `evaluation.ipynb` : chargement du modèle et évaluation sur l’ensemble du dataset  
+- `brain_tumor_detection.ipynb` : création du modèle, entrainement et évaluation
 - `brain_tumor_model.h5` : modèle entraîné sauvegardé  
 - `yes/` et `no/` : répertoires contenant un échantillon des images IRM utilisées  
 
