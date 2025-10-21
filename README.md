@@ -32,14 +32,14 @@ Le modèle est un **CNN séquentiel** comprenant :
 **Batch size :** 32  
 
 ## Résultats
-Le modèle atteint une **précision d’environ XX %** sur l’ensemble de test.  
+Le modèle atteint une **précision d’environ 95 %** sur l’ensemble de test.  
 L’évaluation est réalisée à l’aide d’un second notebook dédié à la vérification des performances globales.
 
 ## Organisation du dépôt
-- `Projet_tumor_detection.ipynb` : entraînement et sauvegarde du modèle  
-- `Projet_detection_tumeurs.ipynb` : chargement du modèle et évaluation sur l’ensemble du dataset  
+- `creation_modele.ipynb` : entraînement et sauvegarde du modèle  
+- `evaluation.ipynb` : chargement du modèle et évaluation sur l’ensemble du dataset  
 - `brain_tumor_model.h5` : modèle entraîné sauvegardé  
-- `yes/` et `no/` : répertoires contenant les images IRM utilisées  
+- `yes/` et `no/` : répertoires contenant un échantillon des images IRM utilisées  
 
 ## Améliorations possibles
 - Utiliser un modèle pré-entraîné (MobileNetV2, EfficientNet, ResNet50)  
