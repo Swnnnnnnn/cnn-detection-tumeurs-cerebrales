@@ -32,7 +32,7 @@ Le modèle est un **CNN séquentiel** comprenant :
 **Batch size :** 32  
 
 ## Résultats
-Le modèle atteint une **précision d’environ 95 %** sur l’ensemble de test.  
+Le modèle atteint une **précision d’environ 80 %** sur l’ensemble de test.  
 L’évaluation est réalisée à l’aide d’un second notebook dédié à la vérification des performances globales.
 
 ## Organisation du dépôt
